@@ -14,26 +14,26 @@
 class Demodsl < Formula
   desc "DSL-driven automated product demo video generator"
   homepage "https://fran-cois.github.io/demodsl"
-  version "3.12.0"
+  version "3.13.0"
   license "MIT"
 
   depends_on "ffmpeg"
 
   on_macos do
     on_arm do
-      url "https://github.com/Fran-cois/demodsl/releases/download/v3.12.0/demodsl-3.12.0-macos-aarch64.tar.gz"
-      sha256 "d95acbafa6081608c74c26b61bf11c214e44747e11831f268354bbda352f5d3e"
+      url "https://github.com/Fran-cois/demodsl/releases/download/v3.13.0/demodsl-3.13.0-macos-aarch64.tar.gz"
+      sha256 "b0e34e409d392a06cb89036b6b14d40ae61624d15526aad90b4708cb1004628c"
     end
     on_intel do
-      url "https://github.com/Fran-cois/demodsl/releases/download/v3.12.0/demodsl-3.12.0-macos-x86_64.tar.gz"
-      sha256 "d46e325e7989214fd2ef99dccf02b2491a3cad75ce8ca557ce27b34a6e063151"
+      url "https://github.com/Fran-cois/demodsl/releases/download/v3.13.0/demodsl-3.13.0-macos-x86_64.tar.gz"
+      sha256 "3d989ac49b22a9d4d73a0b4d473abf6c159dc28356c0bfe6b3a072cf63b1d82e"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Fran-cois/demodsl/releases/download/v3.12.0/demodsl-3.12.0-linux-x86_64.tar.gz"
-      sha256 "5a0937eb0602d93fa01b8559932c35159eacd1d5b75549980024cb573e33cc98"
+      url "https://github.com/Fran-cois/demodsl/releases/download/v3.13.0/demodsl-3.13.0-linux-x86_64.tar.gz"
+      sha256 "ee7a4b848284d49780fa456f811fcf1871439415a35c280455f945da0c4cc4f1"
     end
   end
 
